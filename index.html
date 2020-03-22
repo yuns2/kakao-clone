@@ -46,16 +46,22 @@
         <ul class="chats__list">
             <li class="chats__chat chat">
                 <a href="chat.html">
+
                     <!--새로운 부모 요소를 만들어준다.-->
-                    <div class="chat__column">
-                        <img class="chat__avatar g-avatar" src="img/jieun.jpg">
-                        <div class="chat__content">
-                            <span class="chat__username">Ji-enu</span>
-                            <span class="chat__preview">Good afternoon!</span>
+                    <div class="chats__chat friend friend--lg">
+                        <div class="friend__column">
+                            <img src="img/jieun.jpg" alt="jieun" class="m-avatar friend__avatar">
+                            <div class="friend__content">
+                                <span class="friend__name">Lee jieun</span>
+                                <span class="friend__bottom-text">Going Home!</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="chat__column">
-                        <span class="chat__timestamp">Yesterday</span>
+                        <!-- 대쉬 2개(--)는 새로운 것. 나에 대한 정보는 사진 크기, 폰트 크기가 다르므로 새롭게 표시해줌-->
+                        <div class="friend_column">
+                            <div class="friend__now-listening">
+                                <span class="chat__timestamp">March 8</span>
+                            </div>
+                        </div>
                     </div>
                 </a>
             </li>
@@ -70,6 +76,7 @@
             </li>
             <li class="nav__list-item">
                 <a href="index.html" class="nav__list-link">
+                    <div class="nav__badge">14</div>
                     <i class="fas fa-comment"></i>
                 </a>
             </li>
