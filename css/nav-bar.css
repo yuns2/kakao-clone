@@ -8,6 +8,23 @@
     border-top: 1px solid #f7f7f7;
 }
 
+@keyframes showNavBar {
+    from {
+        transform: translateY(80px);
+    }
+
+    to {
+        transform: none;
+    }
+}
+
+.nav {
+    /*숨겨진 채로 로드됨*/
+    transform: translateY(80px);
+    animation: showNavBar 0.5s ease-out forwards;
+    animation-delay: .5s;
+}
+
 .nav .nav__list {
     display: flex;
     justify-content: space-between;
