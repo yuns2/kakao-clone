@@ -1,0 +1,139 @@
+.profile_detail {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.profile_detail.normal {
+    background-color: #8d949a;
+}
+
+.profile_detail.manwool {
+    background-color: #222222 !important;
+    background-image: url('../img/manwool-bg.jpg');
+    background-blend-mode: screen;
+}
+
+.profile_detail.dlwlrma {
+    background-color: #222222 !important;
+    background-image: url('../img/dlwlrma-bg.jpg');
+    background-blend-mode: screen;
+}
+
+.profile_detail i,
+.profile_detail span,
+.profile_detail h2,
+.profile_detail h4 {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile__music-box {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.music-box__column {
+    display: flex;
+    align-items: center;
+}
+
+
+.music__photo {
+    width: 54px;
+    height: 54px;
+    margin-right: 10px;
+}
+
+.music__photo img {
+    width: 100%;
+    height: 100%;
+}
+
+.music__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.music__content h4 {
+    font-size: 18px
+}
+
+.music__content span {
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.music-box__column.music__btns {
+    margin-right: 15px;
+}
+
+.music-box__column.music__btns i {
+    font-size: 20px;
+}
+
+.profile {
+    height: 85vh;
+}
+
+.profile__bottom-box {}
+
+.profile__bottom-box .bottom-box__avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.profile__bottom-box .bottom-box__avatar>img {
+    border-radius: 40%;
+    width: 90px;
+    height: 90px;
+}
+
+.bottom-box__avatar h2 {
+    font-size: 18px;
+    margin: 10px 0 8px;
+}
+
+.bottom-box__avatar h4 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.profile__bottom-box .bottom-box__active-btns {
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.active-btns__column a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.active-btns__column i {
+    font-size: 22px;
+}
+
+.active-btns__column span {
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 300;
+}
