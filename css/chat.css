@@ -133,6 +133,11 @@
     margin-bottom: 30px;
     font-weight: 700;
 }
+.chat__messages .chat__timestamp::before {
+content : "";
+
+}
+
 
 .message {
     display: flex;
