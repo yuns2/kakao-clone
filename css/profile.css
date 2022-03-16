@@ -1,5 +1,5 @@
 .profile_detail {
-    height: 100vh;
+    height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -15,9 +15,9 @@
     background-blend-mode: screen;
 }
 
-.profile_detail.dlwlrma {
+.profile_detail.james {
     background-color: #222222 !important;
-    background-image: url('../img/dlwlrma-bg.jpg');
+    background-image: url('../img/cover/james.png');
     background-blend-mode: screen;
 }
 
