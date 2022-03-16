@@ -123,9 +123,10 @@
 }
 
 .chat__messages .chat__timestamp {
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
-        rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-basis:100%;
     text-transform: uppercase;
     font-size: 12px;
     padding: 8px 15px;
@@ -133,9 +134,15 @@
     margin-bottom: 30px;
     font-weight: 700;
 }
-.chat__messages .chat__timestamp::before {
-content : "";
-
+.chat__messages .chat__timestamp::before,
+.chat__messages .chat__timestamp::after {
+    content : "";
+    flex-grow: 1;
+    margin: 0 16px;
+    background: #333;
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
 }
 
 
